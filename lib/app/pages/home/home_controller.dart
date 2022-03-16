@@ -10,6 +10,7 @@ class HomePage extends StatefulWidget {
 }
 
 class HomeController extends State<HomePage> {
+  /// [MOCK] Replace with http api call
   final List<CryptoAsset> _cryptoAsset = <CryptoAsset>[
     CryptoAsset(price: 41000.30, ticker: 'BTC', variation: 2.19),
     CryptoAsset(price: 0.75, ticker: 'XRP', variation: -2.19),
