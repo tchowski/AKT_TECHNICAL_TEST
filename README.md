@@ -14,7 +14,7 @@ It aims to demonstrate my technical & architectural skills with the Flutter fram
 1. Clone the repo
 
    ```sh
-   https://deskoin@dev.azure.com/deskoin/deskoin-frontend/_git/deskoin-frontend
+   https://github.com/tchowski/AKT_TECHNICAL_TEST.git
    ```
 
 1. Run flutter pub get
@@ -63,9 +63,7 @@ You can use `settings.json` to configure you start running app and then press F5
 # Architecture
 MVC Architecture
 
-https://www.appventurez.com/blog/mvvm-architecture/
-
-![Alt text](https://www.appventurez.com/blog/wp-content/uploads/2021/03/understanding-of-flutter-mvvm-architecture.jpg "The Clean Architecture")
+![Alt text](https://user-images.githubusercontent.com/32497443/104035360-a845f280-5197-11eb-88bf-210b464de078.jpg "The Clean Architecture")
 
 
 ## Style
@@ -76,4 +74,4 @@ Effective Dart style: https://dart.dev/guides/language/effective-dart
 
 ## Contact
 
-Azure DevOps: [https://dev.azure.com/deskoin/_git/deskoin-frontend](https://dev.azure.com/deskoin/_git/deskoin-frontend)
+GitHub: [https://github.com/tchowski/AKT_TECHNICAL_TEST.git](https://github.com/tchowski/AKT_TECHNICAL_TEST.git)
