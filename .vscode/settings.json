@@ -1,0 +1,14 @@
+{
+  "git.ignoreLimitWarning": true,
+  "editor.tabSize": 2,
+  "files.watcherExclude": {
+    "./android/.gradle/*": true,
+    "./build/*": true
+  },
+  "dart.lineLength": 100,
+  "files.insertFinalNewline": true,
+  "editor.formatOnSave": true,
+  "dart_data_class_generator.constructor.default_values": true,
+  "dart_data_class_generator.constructor.required": true,
+  "editor.semanticHighlighting.enabled": false,
+}

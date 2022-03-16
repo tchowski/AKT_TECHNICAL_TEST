@@ -1,0 +1,62 @@
+name: akt_test
+description: Hi guys !
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  ### DESIGN ###
+  cupertino_icons: ^1.0.2
+  auto_size_text: ^3.0.0-nullsafety.0
+  responsive_builder: ^0.4.1
+  iconsax: ^0.0.8
+  
+  ### UTILS ###
+  vrouter: ^1.2.0+21
+  package_info_plus: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  golden_toolkit: ^0.11.0
+  flutter_lints: ^1.0.0
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lang/
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Basically
+      fonts:
+        - asset: assets/fonts/Basically/fonts/BasicallyASansSerif-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/Basically/fonts/BasicallyASansSerif-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/Basically/fonts/BasicallyASansSerif-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Basically/fonts/BasicallyASansSerif-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Basically/fonts/BasicallyASansSerif-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Basically/fonts/BasicallyASansSerif-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Basically/fonts/BasicallyASansSerif-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Basically/fonts/BasicallyASansSerif-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Basically/fonts/BasicallyASansSerif-Black.ttf
+          weight: 900
