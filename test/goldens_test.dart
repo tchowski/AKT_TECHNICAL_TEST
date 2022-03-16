@@ -38,14 +38,11 @@ Widget _createApplication(
 Future<void> _makeOneScreenShot(WidgetTester tester, Device device, Widget screen, String url,
     {String suffix = ''}) async {
   try {
-    /// Use [mockNetworkImagesFor] to avoid crash during test for NetworkImage
     final Widget app = _createApplication(home: screen, url: url);
 
     await tester.runAsync(() async {
       await tester.pumpWidget(app);
-      // await tester.pump();
       await tester.pump(const Duration(seconds: 3));
-      // await tester.pumpAndSettle();
       for (final Element element in find.byType(Image).evaluate()) {
         final Image widget = element.widget as Image;
         final ImageProvider image = widget.image;
@@ -68,7 +65,12 @@ const List<String> routes = <String>[
   '/home',
 ];
 
-final List<Widget> miscaleunous = <Widget>[const SplashPage(), const HomePage()];
+final List<Widget> miscaleunous = <Widget>[
+  const SplashPage(
+    testing: true,
+  ),
+  const HomePage()
+];
 
 void main() {
   setUpAll(() async {

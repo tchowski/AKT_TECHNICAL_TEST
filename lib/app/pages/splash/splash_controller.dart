@@ -3,7 +3,8 @@ import 'package:akt_test/utils/utils.dart';
 import 'package:flutter/material.dart';
 
 class SplashPage extends StatefulWidget {
-  const SplashPage({Key? key}) : super(key: key);
+  final bool testing;
+  const SplashPage({Key? key, this.testing = false}) : super(key: key);
 
   @override
   SplashController createState() => SplashController();
@@ -25,7 +26,9 @@ class SplashController extends State<SplashPage> with SingleTickerProviderStateM
     animation.addStatusListener((AnimationStatus status) {
       if (status == AnimationStatus.completed) {
         controller.stop();
-        navigateTo(context, '/home');
+        if (!widget.testing) {
+          navigateTo(context, '/home');
+        }
       } else if (status == AnimationStatus.dismissed) {
         controller.forward();
       } else if (status == AnimationStatus.dismissed) {
