@@ -21,12 +21,12 @@ class AssetCard extends StatelessWidget {
           ),
           AutoSizeText(
             cryptoAsset.ticker,
-            style: _theme.subtitle1!.copyWith(color: Colors.white),
+            style: _theme.subtitle1,
           ),
           _spaceBeetwenSubtitle(),
           AutoSizeText(
             '${cryptoAsset.price.formatToCurrency()} €',
-            style: _theme.bodyText2!.copyWith(color: Colors.white60),
+            style: _theme.bodyText2,
           ),
           _spaceBeetwenSubtitle(),
           _variation(_theme)

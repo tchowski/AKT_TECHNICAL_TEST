@@ -101,7 +101,7 @@ class HomeView extends StatelessWidget {
         ),
         AutoSizeText(
           AppLocalizations.of(context)!.translate('titleSliverAppBarHome'),
-          style: _theme.bodyText2!.copyWith(color: Colors.grey),
+          style: _theme.bodyText2,
           textAlign: TextAlign.center,
         ),
         ElevatedButton(

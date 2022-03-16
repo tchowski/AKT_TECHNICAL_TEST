@@ -8,6 +8,7 @@ This project is a technical test for AKT company.
 It aims to demonstrate my technical & architectural skills with the Flutter framework.
 
 ![alt text](./home_akt.png "Home page")
+![alt text](./splash_akt.png "Splash page")
 
 ## Installing
 

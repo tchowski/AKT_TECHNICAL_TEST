@@ -5,7 +5,7 @@ import 'dart:math' as math;
 
 extension DoubleExtension on double {
   Color getCurrentVariationPriceColor() {
-    return isNegative ? ConfigColors.errorColor : ConfigColors.greenChart;
+    return isNegative ? ConfigColors.red : ConfigColors.green;
   }
 
   IconData getCurrentVariationPriceIcon() {
